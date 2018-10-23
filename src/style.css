@@ -46,10 +46,6 @@
   color: yellow !important;
 }
 
-.margin-content {
-  margin-left: 5px;
-  margin-right: 5px;
-}
 .subheader {
   padding: 20px;
   margin: 5px;
@@ -79,36 +75,10 @@
 
 
 
-.box.a {
-  grid-area: boxa;
-  padding: 10px;
-}
-
-.box.b {
-  grid-area: boxb;
-  padding: 10px;
-}
-
-.box.c {
-  grid-area: boxc;
-  padding: 10px;
-}
-
-.box.d {
-  grid-area: boxd;
-  padding: 10px;
-}
 
 
 
-.card-1 {
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-}
 
-.card-5 {
-  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
-}
 
 
 .row1 {
