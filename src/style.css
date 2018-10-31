@@ -1,3 +1,4 @@
+
 .header {
   background-color: #1d6b34 !important;
   height: 80px;
@@ -62,52 +63,27 @@
   margin-right: 5px;
 }
 
-/*
-
-
+/****************************** SIDEBAR OPMAAK *************************************/
 .sidebar {
-  grid-column: col 1 / span 2;
-  grid-row: row 1 / span 5;
-  z-index: 3;
+  position: absolute;
+  z-index: 10;
   background-color: rgba(29, 107, 52, 0.7);
 }
 
-
-
-
-
-
-
-
-
-
-.row1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 70px;
-  background-color: rgba(29, 107, 52, 0);
-  color: white;
-  font-weight: bold;
-}
-
-.row2 {
-  display: flex;
-  flex-direction: column;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-.row {
-  display: flex;
-  flex-direction: column;
+.sb_container {
   margin: 10px;
-  background-color: white;
   padding: 10px;
+  background-color: white;
 }
 
-.button.prmt {
-  height: 30px;
+.SB_header {
+  color: white;
+  padding: 15px;
+}
+
+.sb_switcher.uk-subnav {
+  margin-left: 0px !important;
+  padding-top: 5px !important;
 }
 
 .row3,
@@ -136,23 +112,15 @@
   padding: 20px;
 }
 
-.allewaarden,
-.prmt_text {
-  display: none;
-}
+/****************************** // SIDEBAR OPMAAK *************************************/
+
 
 .prmt_jaar {
 margin-left: 10px;
 }
 
-
-
 .mainViewerTable {
   visibility: hidden;
-}
-
-.sidebar {
-  display: none;
 }
 
 .browser {
@@ -166,8 +134,6 @@ margin-left: 10px;
   height: 100vh;
   color: #fff;
 }
-
-
 
 .ui-widget.ui-widget-content {
   border: none;
@@ -211,33 +177,6 @@ margin-left: 10px;
 td, th {
     overflow: hidden;
 }
-
-
-.row_header1 {
-  margin-bottom: 20px;
-}
-
-.logo1 > img {
-  margin: 10px;
-}
-
-.title {
-  color: white;
-  font-size: 30px;
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
-
-
-
-.subheader > p {
-  margin-left: 10px;
-}
-
-p {
-  margin: 0px;
-}
-
 
 .uk-navbar-container:not(.uk-navbar-transparent) {
   background-color: #1d6b34;
@@ -295,9 +234,6 @@ transition:opacity .7s;
 
 }
 
-
 .clsSelectControl {
 width: auto !important;
 }
-
-*/
